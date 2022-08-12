@@ -1,5 +1,6 @@
 import React from 'react'
 import "./app.css";
+// import "./app.css.map";
 import image51 from "/home/team/Desktop/mango/src/img/left-lottery.jpg";
 import image52 from "/home/team/Desktop/mango/src/img/right-lottery.jpg";
 function Lottery() {

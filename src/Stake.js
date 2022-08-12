@@ -1,12 +1,13 @@
 import React from 'react'
 import "./app.css";
+import "./style.css";
 import image40 from "/home/team/Desktop/mango/src/img/left-cheeze.jpg";
 import image41 from "/home/team/Desktop/mango/src/img/right-cheeze.jpg";
 function Stake() {
   return (
    <>
 
-<nav id="nav" className="slide-down">
+{/* <nav id="nav" className="slide-down">
   <div>
     <a href="/" title="MoonRatz Home"><i data-ico="mlogo"></i></a>
 
@@ -47,14 +48,14 @@ function Stake() {
   </div>
 
   <aside className="melting-nav"></aside>
-</nav>
+</nav> */}
 
 <main>
   <section class="intro staking">
     <div class="grid-x align-center">
       <figure class="float-el">
-        <img class="left-cheeze" src={image40} alt="moonratz"/>
-        <img class="right-cheeze" src={image41} alt="moonratz"/>
+        <img class="left-cheeze" src={image40} alt="moonratz" style={{width:"20%"}}/>
+        <img class="right-cheeze" src={image41} alt="moonratz" style={{width:"20%"}}/>
       </figure>
 
       <h1 class="reduced text-center">

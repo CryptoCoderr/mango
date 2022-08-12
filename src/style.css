@@ -1,0 +1,16 @@
+.staking-dtls {
+    margin-bottom: 20px !important;
+}
+h1 .dynamic {
+    font-size: 50px;
+}
+@media only screen and (max-width: 900px)   {
+    h1 .dynamic {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 600px)   {
+    h1 .dynamic {
+        font-size: 25px;
+    }
+}
