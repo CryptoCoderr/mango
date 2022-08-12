@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { BrowserRouter , Routes, Route } from "react-router-dom";
 import './App.css';
+import Main from './Main';
+import Stake from './Stake';
+import Swap from './Swap';
+import Lottery from './Lottery';
+import Faq from './Faq';
+import Contracts from './Contracts';          
 
-function App() {
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Main/>}  />
+      <Route path='/stake' element={<Stake/>}  />
+      <Route path='/swap' element={<Swap/>}  />
+      <Route path='/lottery' element={<Lottery/>}  />
+      <Route path='/faq' element={<Faq/>}  />
+      <Route path='/contracts' element={<Contracts/>}  />
+    </Routes>
+
+    </BrowserRouter>
+    
+    
   );
 }
 
