@@ -12,12 +12,12 @@ function App(){
     
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Main/>}  />
-      <Route path='/stake' element={<Stake/>}  />
+      {/* <Route path='/' element={<Main/>}  /> */}
+      <Route path='/' element={<Stake/>}  />
       <Route path='/swap' element={<Swap/>}  />
       <Route path='/lottery' element={<Lottery/>}  />
-      <Route path='/faq' element={<Faq/>}  />
-      <Route path='/contracts' element={<Contracts/>}  />
+      {/* <Route path='/faq' element={<Faq/>}  />
+      <Route path='/contracts' element={<Contracts/>}  /> */}
     </Routes>
 
     </BrowserRouter>

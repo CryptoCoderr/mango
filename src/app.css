@@ -897,10 +897,10 @@ main > * > * {
 }
 .nft-breakdwn .frame img {
   position: absolute;
-  width: 160%;
-  max-width: 160%;
-  bottom: -21.5%;
-  left: -30%;
+  width: 100%;
+  max-width: 100%;
+  bottom: -13.5%;
+  left: 3%;
 }
 
 .nft-breakdwn .shrink {
@@ -920,9 +920,10 @@ main > * > * {
   transform: scale(1.15);
 }
 .eco .large-5 img {
-  max-width: 120%;
-  width: 120%;
-  margin-left: -10%;
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 
 #cardsList {

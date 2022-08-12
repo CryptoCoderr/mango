@@ -115,11 +115,11 @@ mediaSizeForNav();
 window.addEventListener('resize', mediaSizeForNav, false);
 
 // submenu
-$(window).click(function() {
+$(window).trigger( "click",function() {
   $("#submenu-toggle").prop('checked', false);
 });
 
-$('#options').click(function(event){
+$('#options').trigger( "click",function(event){
   event.stopPropagation();
 });
 
@@ -228,7 +228,7 @@ function Main() {
         <p>MoonRatz is not just dope art. Check out our Rat Map to find more about our whole ecosystem filled with
           utilities and perks for our holders.</p>
         <figure id="toggleMap">
-          <img src={image10} alt="MoonRatz Road Map"/>
+          <img src={image10} style={{width:"100%"}} alt="MoonRatz Road Map"/>
         </figure>
       </div>
     </div>
